@@ -1,0 +1,38 @@
+.logo-navbar {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo-navbar:hover {
+  transform: scale(0.9);
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.navbar-transparent {
+  background-color: #3d9bb7 !important; 
+  border: none;
+  box-shadow: none !important;
+}
+
+.nav-item-custom {
+  margin-left: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff !important; 
+  transition: color 0.3s ease;
+}
+
+/* Hover */
+.nav-item-custom:hover {
+  color: #ab6559 !important;
+}
+
+.nav-item-custom.active {
+  color: #073243 !important;
+  font-weight: 600; 
+}
