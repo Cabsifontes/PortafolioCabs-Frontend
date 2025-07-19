@@ -1,23 +1,25 @@
-import NavbarC from "./components/navbar/NavbarC";
 import { Routes, Route } from "react-router-dom";
+import NavbarC from "./components/Navbar/NavbarC";
+import TextCarouselC from "./components/textcarousel/TextCarouselC.jsx";
 
-// Si tienes páginas, descomenta estos imports
-// import Inicio from "./pages/Inicio";
-// import QuienSoy from "./pages/QuienSoy";
-// import Proyectos from "./pages/Proyectos";
-// import Contactame from "./pages/Contactame";
+import "./App.css";
+
+const HomePage = () => {
+  return (
+    <>
+      <TextCarouselC />
+    </>
+  );
+};
 
 function App() {
   return (
-    <>
+    <>      
       <NavbarC />
       <Routes>
-        {/* <Route path="/inicio" element={<Inicio />} />
-        <Route path="/quien-soy" element={<QuienSoy />} />
-        <Route path="/proyectos" element={<Proyectos />} />        
-        <Route path="/contactame" element={<Contactame />} /> */}
+        <Route path="/" element={<HomePage />} />
       </Routes>
-    </>
+    </> 
   );
 }
 
