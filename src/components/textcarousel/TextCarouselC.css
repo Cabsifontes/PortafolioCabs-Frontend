@@ -1,98 +1,90 @@
-body {
-  background-color: #3d9bb7 !important;
-}
-
 .text-carousel-container {
-  perspective: 1000px;
-  width: 100% !important;  
-  position: relative;
-  padding: 30px 0 30px 0 !important;
-  margin-left: 0 !important;  
-  text-align: left;
-  min-height: 60vh !important;
-  box-sizing: border-box;
+  perspective: 1000px !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 auto !important;
+  padding: 160px 0 30px 130px !important;
+  position: relative !important;
+  box-sizing: border-box !important;
   background-color: #3d9bb7 !important;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  padding-left: 3vw;
-  
+  text-align: left !important;
+  min-height: 96vh !important; 
+  overflow-x: hidden !important;
+  flex-grow: 1 !important; 
+  overflow-y: auto !important; 
 }
 
 .projects-list {
-  list-style: none;
-  padding: 0 0 0 0 !important;
-  margin: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .project-item {
-  margin-bottom: 2vw;
-  position: relative;
+  margin-bottom: 2vw !important;
+  position: relative !important;
 }
 
 .project-date {
-  display: block;
-  font-size: 1vw;
-  color: rgba(255, 255, 255, 0.5);
-  transform: rotate(-5deg);
-  transform-origin: left bottom;
-  margin-left: 0;
+  display: block !important;
+  font-size: 1vw !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  transform: rotate(-5deg) !important;
+  transform-origin: left bottom !important;
+  margin-left: 0.5vw !important;
 }
 
 .project-link.with-bg {
   background-color: #3d9bb7 !important;
-  padding: 0 0.3em;
-  border-radius: 3px;
-  display: inline-block;
-  color: white; 
-  margin-left: 0;
+  padding: 0 0.3em !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
+  color: white !important;
 }
 
 .project-link {
-  font-size: 8vw;
-  line-height: 0.8;
-  text-decoration: none;
-  color: #fff;
-  position: relative;
-  cursor: pointer;
-  white-space: nowrap;
+  font-size: 8vw !important;
+  line-height: 0.8 !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  position: relative !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
   transition:
     transform 0.5s ease-in-out,
     color 0.3s ease-out,
-    -webkit-text-stroke 0.1s ease-out;
-  transform-origin: top left;
-  transform: rotateX(2deg) rotateY(-5deg) rotateZ(-3deg) translateZ(-100px);
+    -webkit-text-stroke 0.1s ease-out !important;
+  transform-origin: top left !important;
+  transform: rotateX(2deg) rotateY(-5deg) rotateZ(-3deg) translateZ(-100px) !important;
 }
 
 .project-link:hover {
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0);
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px white;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0) !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-text-stroke: 1px white !important;
 }
 
 .project-link .word {
-  display: inline-block;
-  transition: transform 0.3s ease-out;
-  will-change: transform;
-  margin-left: 0;
-  margin-right: 0;
+  display: inline-block !important;
+  transition: transform 0.3s ease-out !important;
+  will-change: transform !important;
 }
 
 .project-link.hovered .studio {
-  transform: translateX(-20px);
+  transform: translateX(-20px) !important;
 }
 
 .project-link.hovered .mega {
-  transform: translateX(20px);
+  transform: translateX(20px) !important;
 }
 
 .project-link.small-text-link {
-  font-size: 4vw;
-  line-height: 1;
+  font-size: 4vw !important;
+  line-height: 1 !important;
   transform: none !important;
 }
 
 .text-carousel-container * {
-  font-family: 'Arial Black', sans-serif;
+  font-family: 'Arial Black', sans-serif !important;
 }
