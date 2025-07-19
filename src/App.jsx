@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import NavbarC from "./components/Navbar/NavbarC";
+import NavbarC from "./components/navbar/NavbarC";
 import TextCarouselC from "./components/textcarousel/TextCarouselC.jsx";
 
 import "./App.css";
