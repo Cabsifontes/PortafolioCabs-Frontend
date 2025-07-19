@@ -1,0 +1,25 @@
+html, body {
+  height: 70% !important;
+  overflow: hidden !important; 
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer-container {
+  background-color: #073243 !important;
+  color: #ffffff !important;
+  padding: 8px 0 !important;
+  text-align: center !important;
+  font-size: 0.9em !important;
+  width: 100vw !important;
+  position: relative !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+}
+
+.footer-text {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
